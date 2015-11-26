@@ -8,34 +8,18 @@
 	"buffers":
 	[
 		{
-			"file": "mobile site/2100mobile.html",
+			"file": "mobile REAL/2100homemerge.html",
 			"settings":
 			{
-				"buffer_size": 0,
+				"buffer_size": 27088,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "mobile REAL/2100linksmobile.html",
+			"file": "mobile REAL/css/hamburgermerge.css",
 			"settings":
 			{
-				"buffer_size": 3849,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "mobile REAL/2100mobileScrollTest.html",
-			"settings":
-			{
-				"buffer_size": 19102,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "mobile REAL/2100bullittcentermobile.html",
-			"settings":
-			{
-				"buffer_size": 3380,
+				"buffer_size": 6273,
 				"line_ending": "Windows"
 			}
 		}
@@ -43,15 +27,19 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 0.0,
+		"height": 127.0,
 		"selected_items":
 		[
+			[
+				"package",
+				"Preferences: Browse Packages"
+			]
 		],
-		"width": 0.0
+		"width": 512.0
 	},
 	"console":
 	{
-		"height": 0.0
+		"height": 125.0
 	},
 	"distraction_free":
 	{
@@ -64,6 +52,11 @@
 	},
 	"file_history":
 	[
+		"/C/Singleton/2100 a story and a graph/web template/mobile site/2100mobile.html",
+		"/C/Singleton/2100 a story and a graph/web template/mobile REAL/2100linksmobile.html",
+		"/C/Singleton/2100 a story and a graph/web template/mobile REAL/2100mobileScrollTest.html",
+		"/C/Users/singler/Python Animations/anim for scatterplot attempt.ipynb",
+		"/C/Singleton/2100 a story and a graph/web template/mobile REAL/2100bullittcentermobile.html"
 	],
 	"find":
 	{
@@ -98,23 +91,23 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "mobile site/2100mobile.html",
+					"file": "mobile REAL/2100homemerge.html",
 					"settings":
 					{
-						"buffer_size": 0,
+						"buffer_size": 27088,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								6526,
+								6526
 							]
 						],
 						"settings":
@@ -124,17 +117,17 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 2234.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "mobile REAL/2100linksmobile.html",
+					"file": "mobile REAL/css/hamburgermerge.css",
 					"settings":
 					{
-						"buffer_size": 3849,
+						"buffer_size": 6273,
 						"regions":
 						{
 						},
@@ -147,68 +140,12 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 4,
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "mobile REAL/2100mobileScrollTest.html",
-					"settings":
-					{
-						"buffer_size": 19102,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								266,
-								266
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "mobile REAL/2100bullittcentermobile.html",
-					"settings":
-					{
-						"buffer_size": 3380,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3213,
-								3213
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1080.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
