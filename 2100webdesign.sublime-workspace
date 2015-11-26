@@ -11,7 +11,7 @@
 			"file": "mobile site/2100mobile.html",
 			"settings":
 			{
-				"buffer_size": 19124,
+				"buffer_size": 0,
 				"line_ending": "Windows"
 			}
 		},
@@ -27,7 +27,7 @@
 			"file": "mobile REAL/2100mobileScrollTest.html",
 			"settings":
 			{
-				"buffer_size": 19159,
+				"buffer_size": 19102,
 				"line_ending": "Windows"
 			}
 		},
@@ -35,7 +35,7 @@
 			"file": "mobile REAL/2100bullittcentermobile.html",
 			"settings":
 			{
-				"buffer_size": 3345,
+				"buffer_size": 3380,
 				"line_ending": "Windows"
 			}
 		}
@@ -98,7 +98,7 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -106,15 +106,15 @@
 					"file": "mobile site/2100mobile.html",
 					"settings":
 					{
-						"buffer_size": 19124,
+						"buffer_size": 0,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								283,
-								283
+								0,
+								0
 							]
 						],
 						"settings":
@@ -162,15 +162,15 @@
 					"file": "mobile REAL/2100mobileScrollTest.html",
 					"settings":
 					{
-						"buffer_size": 19159,
+						"buffer_size": 19102,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								266,
+								266
 							]
 						],
 						"settings":
@@ -190,15 +190,15 @@
 					"file": "mobile REAL/2100bullittcentermobile.html",
 					"settings":
 					{
-						"buffer_size": 3345,
+						"buffer_size": 3380,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								651,
-								651
+								3213,
+								3213
 							]
 						],
 						"settings":
@@ -208,7 +208,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 90.0,
+						"translation.y": 1080.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
