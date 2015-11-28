@@ -132,20 +132,95 @@ font-family: Georgia, "Droid Serif", Cambria, "Times New Roman", Times, serif; 	
   background-size: 200%;*/
 }
 
-.site-wrap4 {
-  position: relative;
-  min-width: 100%;
-  background-color: white;
-  top: 0;
-  left: 0;
-  z-index: 0;
+.allShow {
+    position: relative;
+    min-width: 100%;
+    background-color: white;
+    top: 0;
+    left: 0;
+    z-index: 0;
 }
 
+.mobileShow {
+    display: none;
+}
+
+
+/* Smartphone Portrait and Landscape */
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    .mobileShow {
+        display: inline;
+    }
+}
+
+.mobileHide {
+    display: inline;
+}
+
+
+/* Smartphone Portrait and Landscape */
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    .mobileHide {
+        display: none;
+    }
+}
+
+.mobileShow2 {
+    background-color: white;
+    position: relative;
+    width: 100px;
+    margin: 30px auto;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-size: 1em;
+    color: #515151;
+    line-height: 1.5em;
+    font-family: Georgia, "Droid Serif", Cambria, "Times New Roman", Times, serif;
+    z-index: 6
+}
+
+
+/* Smartphone Portrait and Landscape */
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    .mobileShow2 {
+        display: inline;
+        line-height: 2.5em;
+    }
+}
+
+.deskshow2 {
+    display: none;
+}
+
+
+/* Smartphone Portrait and Landscape */
+
+@media only screen and (min-device-width: 1000px) and (max-device-width: 4000px) {
+    .deskshow2 {
+    background-color: white;
+    position: relative;
+    width: 500px;
+    margin: 30px auto;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-size: 1em;
+    color: #515151;
+    line-height: 4.5em;
+    font-family: Georgia, "Droid Serif", Cambria, "Times New Roman", Times, serif;
+    z-index: 6
+    }
+}
+
+
 /* Nav Trigger */
+
 .nav-trigger {
-  /* critical styles - hide the checkbox input */
-  position: absolute;
-  clip: rect(0, 0, 0, 0);
+    /* critical styles - hide the checkbox input */
+    position: absolute;
+    clip: rect(0, 0, 0, 0);
 }
 
 label[for="nav-trigger"] {
@@ -175,6 +250,9 @@ background-image: url("hamburgersq.jpg");
 .nav-trigger + label, .site-wrap3 {
   transition: left 0.2s;
 }
+.nav-trigger + label, .allShow {
+  transition: left 0.2s;
+}
 
 .nav-trigger:checked + label {
   left: 265px;
@@ -189,6 +267,10 @@ background-image: url("hamburgersq.jpg");
   /*box-shadow: 0 0 5px 5px rgba(0,0,0,0.5);*/
 }
 .nav-trigger:checked ~ .site-wrap3 {
+  left: 250px;
+  /*box-shadow: 0 0 5px 5px rgba(0,0,0,0.5);*/
+}
+.nav-trigger:checked ~ .allShow {
   left: 250px;
   /*box-shadow: 0 0 5px 5px rgba(0,0,0,0.5);*/
 }
@@ -254,11 +336,33 @@ ul#navtop {background-color: #ffffff;margin: 0; padding: 0px 0 0px 20px;white-sp
 
 .navbottom {margin-left: 0;padding-left: 0;}
 
-#maincontainer {width: 500px; margin: 30px auto; padding-right: 20px; padding-left: 20px;font-family: Georgia, "Droid Serif", Cambria, "Times New Roman", Times, serif;}
+#maincontainer {
+    width: 500px;
+    margin: 30px auto;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-family: Georgia, "Droid Serif", Cambria, "Times New Roman", Times, serif;
+}
 
-.deskcontent {position: relative; width: 500px; margin: 30px auto; padding-right: 20px; padding-left: 20px; font-size: 1em; color: #515151; line-height: 1.5em; font-family: Georgia, "Droid Serif", Cambria, "Times New Roman", Times, serif;}
+.deskcontent {
+    background-color: white;
+    position: relative;
+    width: 500px;
+    margin: 30px auto;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-size: 1em;
+    color: #515151;
+    line-height: 1.5em;
+    font-family: Georgia, "Droid Serif", Cambria, "Times New Roman", Times, serif;
+    z-index: 6
+}
 
-#contentwrapper {float: left;width: 100%;}
+#contentwrapper {
+    float: left;
+    width: 100%;
+}
+
 
 
 
