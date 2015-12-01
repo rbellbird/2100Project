@@ -220,6 +220,21 @@ font-family: Georgia, "Droid Serif", Cambria, "Times New Roman", Times, serif; 	
     }
 }
 
+.mobileShow2 li { 
+    margin-left: 40px; 
+}
+
+/*STYLING FOR LINKS IN BODY classb AND HEADER classh*/
+.classb A:link {text-decoration: underline; color: #626258;}
+.classb A:visited {text-decoration: underline; color: #626258;}
+.classb A:active {text-decoration: underline; color: #626258;}
+.classb A:hover {text-decoration: underline; color: green;}
+
+.classh A:link {text-decoration: underline; font-weight:bold; color: #626258;}
+.classh A:visited {text-decoration: underline; font-weight:bold; color: #626258;}
+.classh A:active {text-decoration: underline; font-weight:bold; color: #626258;}
+.classh A:hover {text-decoration: underline; color: green;}
+
 .deskshow2 {
     display: none;
 }
