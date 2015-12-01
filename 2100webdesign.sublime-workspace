@@ -3,23 +3,47 @@
 	{
 		"selected_items":
 		[
+			[
+				"in",
+				"inline"
+			],
+			[
+				"mobil",
+				"mobileShow"
+			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "mobile REAL/2100homemerge.html",
+			"file": "mobile REAL/2100homejustmobile.html",
 			"settings":
 			{
-				"buffer_size": 27088,
+				"buffer_size": 24920,
 				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/singler/AppData/Roaming/Sublime Text 2/Packages/HTML-CSS-JS Prettify/HTMLPrettify.sublime-settings",
+			"settings":
+			{
+				"buffer_size": 600,
+				"line_ending": "Unix"
 			}
 		},
 		{
 			"file": "mobile REAL/css/hamburgermerge.css",
 			"settings":
 			{
-				"buffer_size": 6273,
+				"buffer_size": 8281,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "mobile REAL/2100homemergePhotoTextPhoto.html",
+			"settings":
+			{
+				"buffer_size": 21960,
 				"line_ending": "Windows"
 			}
 		}
@@ -27,9 +51,33 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 127.0,
+		"height": 392.0,
 		"selected_items":
 		[
+			[
+				"H",
+				"HTMLPrettify"
+			],
+			[
+				"html",
+				"HTMLPrettify"
+			],
+			[
+				"htm",
+				"HTMLPrettify"
+			],
+			[
+				"ht",
+				"HTMLPrettify"
+			],
+			[
+				"html ",
+				"HTMLPrettify"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
 			[
 				"package",
 				"Preferences: Browse Packages"
@@ -60,7 +108,7 @@
 	],
 	"find":
 	{
-		"height": 0.0
+		"height": 34.0
 	},
 	"find_in_files":
 	{
@@ -91,23 +139,23 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 2,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "mobile REAL/2100homemerge.html",
+					"file": "mobile REAL/2100homejustmobile.html",
 					"settings":
 					{
-						"buffer_size": 27088,
+						"buffer_size": 24920,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								6526,
-								6526
+								23984,
+								3904
 							]
 						],
 						"settings":
@@ -117,17 +165,17 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 2234.0,
+						"translation.y": 1267.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "mobile REAL/css/hamburgermerge.css",
+					"file": "/C/Users/singler/AppData/Roaming/Sublime Text 2/Packages/HTML-CSS-JS Prettify/HTMLPrettify.sublime-settings",
 					"settings":
 					{
-						"buffer_size": 6273,
+						"buffer_size": 600,
 						"regions":
 						{
 						},
@@ -140,12 +188,68 @@
 						],
 						"settings":
 						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "mobile REAL/css/hamburgermerge.css",
+					"settings":
+					{
+						"buffer_size": 8281,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								200,
+								92
+							]
+						],
+						"settings":
+						{
 							"syntax": "Packages/CSS/CSS.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "mobile REAL/2100homemergePhotoTextPhoto.html",
+					"settings":
+					{
+						"buffer_size": 21960,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								21666,
+								21619
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1342.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"

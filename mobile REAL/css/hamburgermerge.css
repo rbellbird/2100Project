@@ -5,13 +5,13 @@ html {
 /*
 Setup a basic body - I DON'T KNOW IF THIS MATTERS
 */
-body {
+/*body {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
     font-family: Arial;
     font-size: 18px;
-}
+}*/
 
 /*my attempt to make text wrap around photos like on desktop site. -RS*/
 .imgleft {float: left;margin: 6px 10px 0 0;}
@@ -167,10 +167,27 @@ font-family: Georgia, "Droid Serif", Cambria, "Times New Roman", Times, serif; 	
     }
 }
 
+.mobileHide2 {
+    display: inline;
+    width: 600px;
+    margin: 30px auto;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+
+/* Smartphone Portrait and Landscape */
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    .mobileHide2 {
+        display: none;
+    }
+}
+
 .mobileShow2 {
     background-color: white;
     position: relative;
-    width: 500px;
+    width: 600px;
     margin: 30px auto;
     padding-right: 20px;
     padding-left: 20px;
@@ -187,11 +204,8 @@ font-family: Georgia, "Droid Serif", Cambria, "Times New Roman", Times, serif; 	
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
     .mobileShow2 {
         display: inline;
-/*        line-height: 2.5em;*/
         background-color: white;
-/*        position: relative;*/
-/*        width: 500px;*/
-/*        margin: 30px auto;*/
+        position: relative;
         padding-right: 20px;
         padding-left: 20px;
         font-size: 1em;
