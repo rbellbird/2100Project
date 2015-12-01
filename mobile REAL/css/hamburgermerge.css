@@ -1,0 +1,393 @@
+html {
+    overflow-y: scroll;
+}
+
+/*
+Setup a basic body - I DON'T KNOW IF THIS MATTERS
+*/
+/*body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: Arial;
+    font-size: 18px;
+}*/
+
+/*my attempt to make text wrap around photos like on desktop site. -RS*/
+.imgleft {float: left;margin: 6px 10px 0 0;}
+
+
+/*
+Header is relative so z-index: 1 guarantees always displayed on top
+I CHANGED Z INDEX TO FIVE OLD BACKGROUND COLOR background-color: #3b5998;
+THIS DOES GIVE SHADOW LINE, SOMEHOW ALLOWS CONTENT TO SCROLL UNDER
+*/
+
+
+.header {
+    background-color: #FFFFFF;
+    padding: 10px;
+    text-decoration: none;
+    position: fixed;
+    width: 100%;
+    height: 57px;
+    z-index: 5;
+    -webkit-box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.4);
+    box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.4);
+}
+
+.headerdesk {
+    background-color: #FFFFFF;
+    padding: 10px;
+    text-decoration: none;
+    position: fixed;
+    width: 100%;
+    height: 75px;
+    z-index: 5;
+    -webkit-box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.4);
+    box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.4);
+}
+
+/* Navigation Menu - Background */
+.navigation {
+  /* critical sizing and position styles */
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 0;
+  
+  /* non-critical appearance styles */
+  list-style: none;
+  background: #FFF;
+}
+
+/* Navigation Menu - List items */
+.nav-item {
+  /* non-critical appearance styles */
+  width: 250px;
+  border-top: 0.1em solid #404040;
+  border-bottom: 0.1em solid #303030;
+  /*border-top: 1px solid #111;
+  border-bottom: 1px solid #000;*/
+}
+
+.nav-item a {
+  /* non-critical appearance styles */
+  display: block;
+  padding: 1.0em;
+  /*background: linear-gradient(135deg, rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%);*/
+  background: #404040;
+  color: white;
+  font-size: 1.0em;
+  font-weight: bold;
+  text-decoration: none;
+  transition: color 0.2s, background 0.5s;
+}
+
+.nav-item a:hover {
+  color: #003300;
+  font-weight: bold;
+  /*color: #A00000;*/
+  /*color: #c74438;*/
+  text-decoration: underline;
+  background: #B0B0B0;
+  /*background: linear-gradient(135deg, rgba(0,0,0,0) 0%,rgba(75,20,20,0.65) 100%);*/
+}
+
+/* Site Wrapper - Everything that isn't navigation */
+.site-wrap1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+
+.site-wrap2 {
+  position: relative;
+  background-color: white;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+
+.site-wrap3 {
+  /* Critical position and size styles */
+  min-height: 100%;
+  min-width: 100%;
+  background-color: white; /* Needs a background or else the nav will show through */
+  position: relative;
+  top: 0;
+  bottom: 100%;
+  left: 0;
+  z-index: 1;
+font-family: Georgia, "Droid Serif", Cambria, "Times New Roman", Times, serif; 	color: #626258;
+  
+  /* non-critical apperance styles */
+  padding: 2em; /*
+  background-image: linear-gradient(135deg, rgb(254,255,255) 0%,rgb(221,241,249) 35%,rgb(160,216,239) 100%);
+  background-size: 200%;*/
+}
+
+.allShow {
+    position: relative;
+    min-width: 100%;
+    background-color: white;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+
+.mobileShow {
+    display: none;
+}
+
+
+/* Smartphone Portrait and Landscape */
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    .mobileShow {
+        display: inline;
+    }
+}
+
+.mobileHide {
+    display: inline;
+}
+
+
+/* Smartphone Portrait and Landscape */
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    .mobileHide {
+        display: none;
+    }
+}
+
+.mobileHide2 {
+    display: inline;
+    width: 600px;
+    margin: 30px auto;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+
+/* Smartphone Portrait and Landscape */
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    .mobileHide2 {
+        display: none;
+    }
+}
+
+.mobileShow2 {
+    background-color: white;
+    position: relative;
+    width: 600px;
+    margin: 30px auto;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-size: 1em;
+    color: #515151;
+    line-height: 1.5em;
+    font-family: Georgia, "Droid Serif", Cambria, "Times New Roman", Times, serif;
+    z-index: 6
+}
+
+
+/* Smartphone Portrait and Landscape */
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    .mobileShow2 {
+        display: inline;
+        background-color: white;
+        position: relative;
+        padding-right: 20px;
+        padding-left: 20px;
+        font-size: 1em;
+        color: #515151;
+        line-height: 1.5em;
+        font-family: Georgia, "Droid Serif", Cambria, "Times New Roman", Times, serif;
+        z-index: 5
+    }
+}
+
+.deskshow2 {
+    display: none;
+}
+
+
+/* Smartphone Portrait and Landscape */
+
+@media only screen and (min-device-width: 1000px) and (max-device-width: 4000px) {
+    .deskshow2 {
+    background-color: white;
+    position: relative;
+    width: 500px;
+    margin: 30px auto;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-size: 1em;
+    color: #515151;
+    line-height: 4.5em;
+    font-family: Georgia, "Droid Serif", Cambria, "Times New Roman", Times, serif;
+    z-index: 6
+    }
+}
+
+
+/* Nav Trigger */
+
+.nav-trigger {
+    /* critical styles - hide the checkbox input */
+    position: absolute;
+    clip: rect(0, 0, 0, 0);
+}
+
+label[for="nav-trigger"] {
+  /* critical positioning styles */
+  position: fixed;
+  left: 15px; top: 11px;
+  z-index: 3;
+  
+  /* non-critical apperance styles */
+  height: 35px;
+  width: 35px;
+  cursor: pointer;
+
+/*WHAT THE HAMBURGER LOOKS LIKE*/
+background-image: url("hamburgersq.jpg");
+
+  background-size: contain;
+}
+
+/* Make the Magic Happen */
+.nav-trigger + label, .site-wrap1 {
+  transition: left 0.2s;
+}
+.nav-trigger + label, .site-wrap2 {
+  transition: left 0.2s;
+}
+.nav-trigger + label, .site-wrap3 {
+  transition: left 0.2s;
+}
+.nav-trigger + label, .allShow {
+  transition: left 0.2s;
+}
+
+.nav-trigger:checked + label {
+  left: 265px;
+}
+
+.nav-trigger:checked ~ .site-wrap1 {
+  left: 250px;
+  /*box-shadow: 0 0 5px 5px rgba(0,0,0,0.5);*/
+}
+.nav-trigger:checked ~ .site-wrap2 {
+  left: 250px;
+  /*box-shadow: 0 0 5px 5px rgba(0,0,0,0.5);*/
+}
+.nav-trigger:checked ~ .site-wrap3 {
+  left: 250px;
+  /*box-shadow: 0 0 5px 5px rgba(0,0,0,0.5);*/
+}
+.nav-trigger:checked ~ .allShow {
+  left: 250px;
+  /*box-shadow: 0 0 5px 5px rgba(0,0,0,0.5);*/
+}
+
+body {
+    /* Without this, the body has excess horizontal scroll when the menu is open */
+  overflow-x: hidden;
+}
+
+/* Additional non-critical styles */
+
+h1, h3, p {
+  max-width: 600px;
+  margin: 0 auto 1em;
+}
+
+code {
+    padding: 2px;
+    background: #ddd;
+}
+
+
+/* Micro reset */
+*,*:before,*:after{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;margin:0;padding:0;}
+html, body { height: 100%; width: 100%; font-family: Helvetica, Arial, sans-serif; }
+
+
+/* THIS IS THE STYLE CODE FROM THE STYLE SHEET FOR THE DESKTOP SITE */
+
+
+/* 11/25 - THIS SEEMS TO BE THE CODE THAT MESSES UP HAMBURGER MENUS SPACING
+body {margin:0;padding:0;line-height: 1.5em;background: #fff; font: 76%/160%; font-family: "Open Sans", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif; color: #515151;}
+*/
+
+/* 11/25 ORIGINAL WHEN THERE WERE SEPARATE DESKTOP PAGES
+ul#navtop {background-color: #ffffff;margin: 0; padding: 10px 0 0px 30px;white-space: nowrap;border-bottom: 2px solid #d3d3d3;} */
+
+ul#navtop {background-color: #ffffff;margin: 0; padding: 0px 0 0px 20px;white-space: nowrap;}
+
+
+
+/*Navigation Styles*/
+
+#navtop li {display: inline;list-style-type: none;}
+
+/*THIS IS WITH 30 PX FOR SPACING */
+/*#navtop li {display: inline;list-style-type: none; height: 30px; line-height: 30px;}*/
+
+
+/*trying to get logo to sit lower by playing with navtop a padding*/
+
+#navtop a {padding: 3px 8px;}
+
+/*#navtop a {padding: 0px 0px;}*/
+
+#navtop a:link, #navtop a:visited {color: #808080;text-decoration: none;border: 0px solid #f5f5dc;outline:none;}
+
+#navtop img {
+    vertical-align: middle;
+}
+
+#navtop a:hover{color: #ed5f00;text-decoration: none;}
+
+.navbottom {margin-left: 0;padding-left: 0;}
+
+#maincontainer {
+    width: 500px;
+    margin: 30px auto;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-family: Georgia, "Droid Serif", Cambria, "Times New Roman", Times, serif;
+}
+
+.deskcontent {
+    background-color: white;
+    position: relative;
+    width: 500px;
+    margin: 30px auto;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-size: 1em;
+    color: #515151;
+    line-height: 1.5em;
+    font-family: Georgia, "Droid Serif", Cambria, "Times New Roman", Times, serif;
+    z-index: 6
+}
+
+#contentwrapper {
+    float: left;
+    width: 100%;
+}
+
+
+
+

@@ -3,39 +3,47 @@
 	{
 		"selected_items":
 		[
+			[
+				"in",
+				"inline"
+			],
+			[
+				"mobil",
+				"mobileShow"
+			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "mobile site/2100mobile.html",
+			"file": "mobile REAL/2100homejustmobile.html",
 			"settings":
 			{
-				"buffer_size": 19124,
+				"buffer_size": 24920,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "mobile REAL/2100linksmobile.html",
+			"file": "/C/Users/singler/AppData/Roaming/Sublime Text 2/Packages/HTML-CSS-JS Prettify/HTMLPrettify.sublime-settings",
 			"settings":
 			{
-				"buffer_size": 3849,
+				"buffer_size": 600,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "mobile REAL/css/hamburgermerge.css",
+			"settings":
+			{
+				"buffer_size": 8281,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "mobile REAL/2100mobileScrollTest.html",
+			"file": "mobile REAL/2100homemergePhotoTextPhoto.html",
 			"settings":
 			{
-				"buffer_size": 19159,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "mobile REAL/2100bullittcentermobile.html",
-			"settings":
-			{
-				"buffer_size": 3345,
+				"buffer_size": 21960,
 				"line_ending": "Windows"
 			}
 		}
@@ -43,15 +51,43 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 0.0,
+		"height": 392.0,
 		"selected_items":
 		[
+			[
+				"H",
+				"HTMLPrettify"
+			],
+			[
+				"html",
+				"HTMLPrettify"
+			],
+			[
+				"htm",
+				"HTMLPrettify"
+			],
+			[
+				"ht",
+				"HTMLPrettify"
+			],
+			[
+				"html ",
+				"HTMLPrettify"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Preferences: Browse Packages"
+			]
 		],
-		"width": 0.0
+		"width": 512.0
 	},
 	"console":
 	{
-		"height": 0.0
+		"height": 125.0
 	},
 	"distraction_free":
 	{
@@ -64,10 +100,15 @@
 	},
 	"file_history":
 	[
+		"/C/Singleton/2100 a story and a graph/web template/mobile site/2100mobile.html",
+		"/C/Singleton/2100 a story and a graph/web template/mobile REAL/2100linksmobile.html",
+		"/C/Singleton/2100 a story and a graph/web template/mobile REAL/2100mobileScrollTest.html",
+		"/C/Users/singler/Python Animations/anim for scatterplot attempt.ipynb",
+		"/C/Singleton/2100 a story and a graph/web template/mobile REAL/2100bullittcentermobile.html"
 	],
 	"find":
 	{
-		"height": 0.0
+		"height": 34.0
 	},
 	"find_in_files":
 	{
@@ -98,23 +139,23 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 2,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "mobile site/2100mobile.html",
+					"file": "mobile REAL/2100homejustmobile.html",
 					"settings":
 					{
-						"buffer_size": 19124,
+						"buffer_size": 24920,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								283,
-								283
+								23984,
+								3904
 							]
 						],
 						"settings":
@@ -124,17 +165,17 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1267.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "mobile REAL/2100linksmobile.html",
+					"file": "/C/Users/singler/AppData/Roaming/Sublime Text 2/Packages/HTML-CSS-JS Prettify/HTMLPrettify.sublime-settings",
 					"settings":
 					{
-						"buffer_size": 3849,
+						"buffer_size": 600,
 						"regions":
 						{
 						},
@@ -147,8 +188,8 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 4,
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
@@ -159,24 +200,24 @@
 				},
 				{
 					"buffer": 2,
-					"file": "mobile REAL/2100mobileScrollTest.html",
+					"file": "mobile REAL/css/hamburgermerge.css",
 					"settings":
 					{
-						"buffer_size": 19159,
+						"buffer_size": 8281,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								200,
+								92
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 4,
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
@@ -187,18 +228,18 @@
 				},
 				{
 					"buffer": 3,
-					"file": "mobile REAL/2100bullittcentermobile.html",
+					"file": "mobile REAL/2100homemergePhotoTextPhoto.html",
 					"settings":
 					{
-						"buffer_size": 3345,
+						"buffer_size": 21960,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								651,
-								651
+								21666,
+								21619
 							]
 						],
 						"settings":
@@ -208,7 +249,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 90.0,
+						"translation.y": 1342.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
