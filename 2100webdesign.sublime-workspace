@@ -27,7 +27,7 @@
 			"file": "working copies/css/hamburgermerge.css",
 			"settings":
 			{
-				"buffer_size": 9511,
+				"buffer_size": 9539,
 				"line_ending": "Windows"
 			}
 		},
@@ -43,15 +43,31 @@
 			"file": "working copies/2100home.html",
 			"settings":
 			{
-				"buffer_size": 23251,
+				"buffer_size": 23719,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "working copies/2100submissions.html",
+			"file": "working copies/why2100.html",
 			"settings":
 			{
-				"buffer_size": 6613,
+				"buffer_size": 6797,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "working copies/2100links.html",
+			"settings":
+			{
+				"buffer_size": 6568,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "working copies/2100art.html",
+			"settings":
+			{
+				"buffer_size": 6542,
 				"line_ending": "Windows"
 			}
 		}
@@ -108,9 +124,10 @@
 	},
 	"file_history":
 	[
-		"/C/Singleton/2100 a story and a graph/web template/working copies/why2100.html",
 		"/C/Singleton/2100 a story and a graph/web template/working copies/2100quotes.html",
+		"/C/Singleton/2100 a story and a graph/web template/working copies/2100submissions.html",
 		"/C/Singleton/2100 a story and a graph/web template/working copies/2100monthlyfeatures.html",
+		"/C/Singleton/2100 a story and a graph/web template/working copies/why2100.html",
 		"/C/Singleton/2100 a story and a graph/web template/working copies/2100art.html",
 		"/C/Singleton/2100 a story and a graph/web template/working copies/2100links.html",
 		"/C/Singleton/2100 a story and a graph/web template/mobile REAL/2100bullittcentermobile.html",
@@ -154,7 +171,7 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -190,15 +207,15 @@
 					"file": "working copies/css/hamburgermerge.css",
 					"settings":
 					{
-						"buffer_size": 9511,
+						"buffer_size": 9539,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4915,
-								4865
+								5191,
+								5191
 							]
 						],
 						"settings":
@@ -246,15 +263,15 @@
 					"file": "working copies/2100home.html",
 					"settings":
 					{
-						"buffer_size": 23251,
+						"buffer_size": 23719,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								20824,
-								20824
+								20662,
+								20675
 							]
 						],
 						"settings":
@@ -264,25 +281,25 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 7964.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 4,
-					"file": "working copies/2100submissions.html",
+					"file": "working copies/why2100.html",
 					"settings":
 					{
-						"buffer_size": 6613,
+						"buffer_size": 6797,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								5024,
-								5024
+								6739,
+								6739
 							]
 						],
 						"settings":
@@ -292,7 +309,63 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1440.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "working copies/2100links.html",
+					"settings":
+					{
+						"buffer_size": 6568,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4927,
+								4927
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1665.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "working copies/2100art.html",
+					"settings":
+					{
+						"buffer_size": 6542,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4925,
+								4925
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1575.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
