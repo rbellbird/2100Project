@@ -67,7 +67,7 @@
 			"file": "working copies/2100art.html",
 			"settings":
 			{
-				"buffer_size": 6542,
+				"buffer_size": 6698,
 				"line_ending": "Windows"
 			}
 		}
@@ -124,11 +124,11 @@
 	},
 	"file_history":
 	[
-		"/C/Singleton/2100 a story and a graph/web template/working copies/2100quotes.html",
 		"/C/Singleton/2100 a story and a graph/web template/working copies/2100submissions.html",
+		"/C/Singleton/2100 a story and a graph/web template/working copies/2100art.html",
+		"/C/Singleton/2100 a story and a graph/web template/working copies/2100quotes.html",
 		"/C/Singleton/2100 a story and a graph/web template/working copies/2100monthlyfeatures.html",
 		"/C/Singleton/2100 a story and a graph/web template/working copies/why2100.html",
-		"/C/Singleton/2100 a story and a graph/web template/working copies/2100art.html",
 		"/C/Singleton/2100 a story and a graph/web template/working copies/2100links.html",
 		"/C/Singleton/2100 a story and a graph/web template/mobile REAL/2100bullittcentermobile.html",
 		"/C/Singleton/2100 a story and a graph/web template/mobile REAL/2100homejustmobile.html",
@@ -171,7 +171,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 6,
 			"sheets":
 			[
 				{
@@ -242,8 +242,8 @@
 						"selection":
 						[
 							[
-								291,
-								291
+								5853,
+								6001
 							]
 						],
 						"settings":
@@ -253,7 +253,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1800.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -337,7 +337,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1665.0,
+						"translation.y": 750.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -347,15 +347,15 @@
 					"file": "working copies/2100art.html",
 					"settings":
 					{
-						"buffer_size": 6542,
+						"buffer_size": 6698,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4925,
-								4925
+								6491,
+								5864
 							]
 						],
 						"settings":
@@ -365,7 +365,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1575.0,
+						"translation.y": 2115.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
