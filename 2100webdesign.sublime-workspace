@@ -43,7 +43,7 @@
 			"file": "working copies/2100submissions.html",
 			"settings":
 			{
-				"buffer_size": 8618,
+				"buffer_size": 8667,
 				"line_ending": "Windows"
 			}
 		},
@@ -52,6 +52,22 @@
 			"settings":
 			{
 				"buffer_size": 6468,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "working copies/2100charcoal.html",
+			"settings":
+			{
+				"buffer_size": 6423,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "working copies/2100neforests.html",
+			"settings":
+			{
+				"buffer_size": 7177,
 				"line_ending": "Windows"
 			}
 		},
@@ -124,15 +140,15 @@
 	},
 	"file_history":
 	[
+		"/C/Singleton/2100 a story and a graph/web template/working copies/2100bullittcenter.html",
+		"/C/Singleton/2100 a story and a graph/web template/working copies/2100peregrine.html",
 		"/C/Singleton/2100 a story and a graph/web template/working copies/2100theomal.html",
 		"/C/Singleton/2100 a story and a graph/web template/working copies/2100submissions.html",
 		"/C/Singleton/2100 a story and a graph/web template/working copies/2100quotes.html",
-		"/C/Singleton/2100 a story and a graph/web template/working copies/2100peregrine.html",
 		"/C/Singleton/2100 a story and a graph/web template/working copies/2100neforests.html",
 		"/C/Singleton/2100 a story and a graph/web template/working copies/2100monthlyfeatures.html",
 		"/C/Singleton/2100 a story and a graph/web template/working copies/2100links.html",
 		"/C/Singleton/2100 a story and a graph/web template/working copies/2100charcoal.html",
-		"/C/Singleton/2100 a story and a graph/web template/working copies/2100bullittcenter.html",
 		"/C/Singleton/2100 a story and a graph/web template/working copies/2100art.html",
 		"/C/Singleton/2100 a story and a graph/web template/working copies/why2100.html",
 		"/C/Singleton/2100 a story and a graph/web template/mobile REAL/2100bullittcentermobile.html",
@@ -176,7 +192,7 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -230,7 +246,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 2205.0,
+						"translation.y": 4680.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -240,15 +256,15 @@
 					"file": "working copies/2100submissions.html",
 					"settings":
 					{
-						"buffer_size": 8618,
+						"buffer_size": 8667,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								7467,
-								7467
+								6880,
+								6880
 							]
 						],
 						"settings":
@@ -258,7 +274,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 2250.0,
+						"translation.y": 2280.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -293,6 +309,62 @@
 				},
 				{
 					"buffer": 4,
+					"file": "working copies/2100charcoal.html",
+					"settings":
+					{
+						"buffer_size": 6423,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6015,
+								6015
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1800.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "working copies/2100neforests.html",
+					"settings":
+					{
+						"buffer_size": 7177,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7132,
+								7132
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
 					"file": "working copies/why2100.html",
 					"settings":
 					{
@@ -320,7 +392,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 5,
+					"buffer": 7,
 					"file": "working copies/2100home.html",
 					"settings":
 					{
