@@ -131,6 +131,20 @@ font-family: Georgia, "Droid Serif", Cambria, "Times New Roman", Times, serif; 	
   background-size: 200%;*/
 }
 
+.clicktolearn {
+    background-color: white;
+    position: relative;
+    width: 450px;
+    margin: auto;
+    line-height: 1.1em;
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    .clicktolearn {
+        display: inline;
+        line-height: 1.1em;
+    }
+}
+
 .allShow {
     position: relative;
     min-width: 100%;
@@ -150,7 +164,7 @@ font-family: Georgia, "Droid Serif", Cambria, "Times New Roman", Times, serif; 	
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
     .mobileShow {
         display: inline;
-        line-height: 1.8em;
+        line-height: 1.6em;
     }
 }
 
@@ -171,7 +185,12 @@ font-family: Georgia, "Droid Serif", Cambria, "Times New Roman", Times, serif; 	
     background-color: white;
     position: relative;
     width: 600px;
-    margin: 30px auto;
+/*    margin: 30px auto;*/
+/*    margin-right: 30px;*/
+    margin: 5px auto;
+/*    margin-bottom: 30px;
+    margin-top: 40px;*/
+/*    margin: auto;*/
     padding-right: 20px;
     padding-left: 20px;
     font-size: 1em;
