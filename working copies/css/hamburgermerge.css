@@ -145,6 +145,13 @@ font-family: Georgia, "Droid Serif", Cambria, "Times New Roman", Times, serif; 	
     }
 }
 
+.addmargins {
+/*  margin: 30px;*/
+    position: relative;
+    width: 250px;
+    margin: 0px auto;
+}
+
 .allShow {
     position: relative;
     min-width: 100%;
