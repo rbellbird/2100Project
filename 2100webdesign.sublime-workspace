@@ -35,7 +35,7 @@
 			"file": "working copies/css/hamburgermerge.css",
 			"settings":
 			{
-				"buffer_size": 9960,
+				"buffer_size": 10061,
 				"line_ending": "Windows"
 			}
 		},
@@ -59,7 +59,15 @@
 			"file": "working copies/2100home.html",
 			"settings":
 			{
-				"buffer_size": 23851,
+				"buffer_size": 23934,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "working copies/2100quotes.html",
+			"settings":
+			{
+				"buffer_size": 10614,
 				"line_ending": "Windows"
 			}
 		}
@@ -169,7 +177,7 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 4,
 			"sheets":
 			[
 				{
@@ -205,15 +213,15 @@
 					"file": "working copies/css/hamburgermerge.css",
 					"settings":
 					{
-						"buffer_size": 9960,
+						"buffer_size": 10061,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3620,
-								3620
+								3336,
+								3336
 							]
 						],
 						"settings":
@@ -223,7 +231,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 4680.0,
+						"translation.y": 1890.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -289,15 +297,15 @@
 					"file": "working copies/2100home.html",
 					"settings":
 					{
-						"buffer_size": 23851,
+						"buffer_size": 23934,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								18754,
-								18754
+								23388,
+								23388
 							]
 						],
 						"settings":
@@ -307,7 +315,35 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 8864.0,
+						"translation.y": 1934.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "working copies/2100quotes.html",
+					"settings":
+					{
+						"buffer_size": 10614,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6119,
+								6119
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1964.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
