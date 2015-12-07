@@ -35,7 +35,7 @@
 			"file": "working copies/css/hamburgermerge.css",
 			"settings":
 			{
-				"buffer_size": 10061,
+				"buffer_size": 10065,
 				"line_ending": "Windows"
 			}
 		},
@@ -59,7 +59,23 @@
 			"file": "working copies/2100home.html",
 			"settings":
 			{
-				"buffer_size": 23934,
+				"buffer_size": 24142,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "working copies/why2100.html",
+			"settings":
+			{
+				"buffer_size": 7952,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "working copies/2100submissions.html",
+			"settings":
+			{
+				"buffer_size": 9064,
 				"line_ending": "Windows"
 			}
 		},
@@ -67,7 +83,7 @@
 			"file": "working copies/2100quotes.html",
 			"settings":
 			{
-				"buffer_size": 10614,
+				"buffer_size": 10910,
 				"line_ending": "Windows"
 			}
 		}
@@ -159,6 +175,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"overflow",
+			"overflow: \"hidden\"",
 			"width"
 		],
 		"highlight": true,
@@ -177,7 +195,7 @@
 	"groups":
 	[
 		{
-			"selected": 4,
+			"selected": 7,
 			"sheets":
 			[
 				{
@@ -213,15 +231,15 @@
 					"file": "working copies/css/hamburgermerge.css",
 					"settings":
 					{
-						"buffer_size": 10061,
+						"buffer_size": 10065,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3336,
-								3336
+								32,
+								9
 							]
 						],
 						"settings":
@@ -231,7 +249,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1890.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -297,15 +315,15 @@
 					"file": "working copies/2100home.html",
 					"settings":
 					{
-						"buffer_size": 23934,
+						"buffer_size": 24142,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								23388,
-								23388
+								21928,
+								21928
 							]
 						],
 						"settings":
@@ -315,25 +333,25 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1934.0,
+						"translation.y": 1882.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 5,
-					"file": "working copies/2100quotes.html",
+					"file": "working copies/why2100.html",
 					"settings":
 					{
-						"buffer_size": 10614,
+						"buffer_size": 7952,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								6119,
-								6119
+								6133,
+								6133
 							]
 						],
 						"settings":
@@ -343,7 +361,63 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1964.0,
+						"translation.y": 1544.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "working copies/2100submissions.html",
+					"settings":
+					{
+						"buffer_size": 9064,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7654,
+								7654
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2009.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "working copies/2100quotes.html",
+					"settings":
+					{
+						"buffer_size": 10910,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								10320,
+								10320
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 4383.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
