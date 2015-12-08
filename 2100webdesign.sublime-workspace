@@ -64,26 +64,10 @@
 			}
 		},
 		{
-			"file": "working copies/why2100.html",
+			"file": "working copies/2100guides.html",
 			"settings":
 			{
-				"buffer_size": 7952,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "working copies/2100submissions.html",
-			"settings":
-			{
-				"buffer_size": 9064,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "working copies/2100quotes.html",
-			"settings":
-			{
-				"buffer_size": 10910,
+				"buffer_size": 6446,
 				"line_ending": "Windows"
 			}
 		}
@@ -140,15 +124,15 @@
 	},
 	"file_history":
 	[
+		"/C/Singleton/2100 a story and a graph/web template/working copies/why2100.html",
+		"/C/Singleton/2100 a story and a graph/web template/working copies/2100submissions.html",
+		"/C/Singleton/2100 a story and a graph/web template/working copies/2100quotes.html",
 		"/C/Singleton/2100 a story and a graph/web template/working copies/2100neforests.html",
 		"/C/Singleton/2100 a story and a graph/web template/working copies/2100guides.html",
 		"/C/Singleton/2100 a story and a graph/web template/working copies/2100charcoal.html",
 		"/C/Singleton/2100 a story and a graph/web template/working copies/2100bullittcenter.html",
 		"/C/Singleton/2100 a story and a graph/web template/working copies/2100theomal.html",
-		"/C/Singleton/2100 a story and a graph/web template/working copies/why2100.html",
-		"/C/Singleton/2100 a story and a graph/web template/working copies/2100submissions.html",
 		"/C/Singleton/2100 a story and a graph/web template/working copies/2100peregrine.html",
-		"/C/Singleton/2100 a story and a graph/web template/working copies/2100quotes.html",
 		"/C/Singleton/2100 a story and a graph/web template/working copies/2100monthlyfeatures.html",
 		"/C/Singleton/2100 a story and a graph/web template/working copies/2100links.html",
 		"/C/Singleton/2100 a story and a graph/web template/working copies/2100art.html",
@@ -195,7 +179,7 @@
 	"groups":
 	[
 		{
-			"selected": 7,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -277,7 +261,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1856.0,
+						"translation.y": 1526.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -333,25 +317,25 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1882.0,
+						"translation.y": 112.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 5,
-					"file": "working copies/why2100.html",
+					"file": "working copies/2100guides.html",
 					"settings":
 					{
-						"buffer_size": 7952,
+						"buffer_size": 6446,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								6133,
-								6133
+								6446,
+								6446
 							]
 						],
 						"settings":
@@ -361,63 +345,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1544.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "working copies/2100submissions.html",
-					"settings":
-					{
-						"buffer_size": 9064,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								7654,
-								7654
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 2009.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "working copies/2100quotes.html",
-					"settings":
-					{
-						"buffer_size": 10910,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								10320,
-								10320
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 4383.0,
+						"translation.y": 2115.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
