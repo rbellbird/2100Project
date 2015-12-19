@@ -7,6 +7,56 @@ $(document).ready(function() {
 });
 </script>
 
+<!-- THIS IS THE CODE FOR THE MORE/LESS OPTION -->
+    <script type='text/javascript' src='jquerytest.js'></script>
+    <script type="text/javascript">
+    $(document).ready(function() {
+        var showChar = 1;
+        var ellipsestext ="...";
+        var moretext = "more";
+        var lesstext = "less";
+        $('.more').each(function() {
+            var content = $(this).html();
+
+            if(content.length > showChar) {
+
+                var c = content.substr(0, showChar);
+                var h = content.substr(showChar-1, content.length - showChar);
+
+                var html = c + '<span class="moreelipses">'+ellipsestext+'</span>&nbsp;<span class="morecontent"><span>' + h + '</span>&nbsp;&nbsp;<a href="" class="morelink">'+moretext+'</a></span>';
+
+                $(this).html(html);
+            }
+
+        });
+
+        $(".morelink").click(function(){
+            if($(this).hasClass("less")) {
+                $(this).removeClass("less");
+                $(this).html(moretext);
+            } else {
+                $(this).addClass("less");
+                $(this).html(lesstext);
+            }
+            $(this).parent().prev().toggle();
+            $(this).prev().toggle();
+            return false;
+        });
+    });
+    </script>
+
+    <style type='text/css'>
+
+    .comment {
+    }
+    a.morelink {
+    }
+    .morecontent span {
+        display: none;
+    }
+
+    </style>
+
 <head>
     <link rel="icon" type="image/gif" href="2100iconclear.png">
     <meta http-equiv="Content-type" content="text/html; charset=UTF-8" />
@@ -166,7 +216,14 @@ to learn more.
     </a>
     <br>
    Original bird poster by April Claggett created to help raise funds for <a href="http://www.himalprakriti.org/">Himal Prakriti</a>, an organization working on bird conservation and other related efforts in Munsiari, India.
-   <a href="http://www.ecologyandevolution.org/2100artmore.html">Read More</a>.
+        <br>
+        <div class="comment more"> 
+            <br>
+            Munsiari is an Important Bird Area (IBA) of India. The Gori River Basin, where Munsiari is located, is home to some 320 bird species. These birds inhabit 5 ecological life zones, from the sub-tropical zone at 590 meters to the alpine zone up to 5,500 meters in altitude. In addition to the altitude gradients, habitats also represent the overlay of three broad biogeographical sub-regions: that of the Western Himalaya, the Eastern Himalaya and the Tibetan Plateau.<br><br>
+            The Gori River basin is 120 km long and on average 25 km wide, and covers around 2,240 sq km. Over 64% of the basin is under village commons or Van Panchayats, representing all altitude gradients and providing the best most contiguous habitats for these birds. Reserve Forests cover less than 8% of the landscape, and around 4% is under agriculture.<br><br>
+            <a href="http://www.himalprakriti.org/">Himal Prakriti</a> is a not-for-profit society acting as a "Trust for Nature." Its activities include work with village communities in nature conservation, forest dependent livelihoods, and related research and education.
+        </div>
+
     <br><br>
 
     <br><br><br><br>
@@ -175,6 +232,13 @@ to learn more.
     </div>
     <br><br>
     Sound graph of climate change data based on average global temperature from 1880 to 2014. Sound frequencies for the lowest temperature and highest temperature years are set to correspond to the lowest and highest notes on a standard piano keyboard. You can learn more about sound graphs <a href="http://www.ecologyandevolution.org/sonification.html">here</a>.
+        <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <font size ="2">
+    &copy;2016, The 2100 Project
 
         </span>
 </div>
