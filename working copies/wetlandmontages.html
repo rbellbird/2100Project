@@ -7,6 +7,56 @@ $(document).ready(function() {
 });
 </script>
 
+<!-- THIS IS THE CODE FOR THE MORE/LESS OPTION -->
+    <script type='text/javascript' src='jquerytest.js'></script>
+    <script type="text/javascript">
+    $(document).ready(function() {
+        var showChar = 1;
+        var ellipsestext ="...";
+        var moretext = "more";
+        var lesstext = "less";
+        $('.more').each(function() {
+            var content = $(this).html();
+
+            if(content.length > showChar) {
+
+                var c = content.substr(0, showChar);
+                var h = content.substr(showChar-1, content.length - showChar);
+
+                var html = c + '<span class="moreelipses">'+ellipsestext+'</span>&nbsp;<span class="morecontent"><span>' + h + '</span>&nbsp;&nbsp;<a href="" class="morelink">'+moretext+'</a></span>';
+
+                $(this).html(html);
+            }
+
+        });
+
+        $(".morelink").click(function(){
+            if($(this).hasClass("less")) {
+                $(this).removeClass("less");
+                $(this).html(moretext);
+            } else {
+                $(this).addClass("less");
+                $(this).html(lesstext);
+            }
+            $(this).parent().prev().toggle();
+            $(this).prev().toggle();
+            return false;
+        });
+    });
+    </script>
+
+    <style type='text/css'>
+
+    .comment {
+    }
+    a.morelink {
+    }
+    .morecontent span {
+        display: none;
+    }
+
+    </style>
+
 <head>
     <link rel="icon" type="image/gif" href="2100iconclear.png">
     <meta http-equiv="Content-type" content="text/html; charset=UTF-8" />
@@ -21,7 +71,7 @@ $(document).ready(function() {
     <meta name="viewport" content="width=device-width, initial-scale = 1.0, maximum-scale=3.0, user-scalable=yes" />
 
 <!--     TITLE HERE -->
-    <title>himalayas</title>
+    <title>wetland montages</title>
     <link rel="stylesheet" href="css/hamburgermerge.css" type="text/css" media="screen" />
     <!--     /*<style type="text/css">
     .mobileShow {
@@ -118,54 +168,60 @@ $(document).ready(function() {
     </div>
 
     <div class="site-wrap3">
-        <div class="mobileShow">
-<!--             HEADER FOR MOBILE -->
-            <br>
-            <br>
-            <font size="4"><b>Sustainability efforts in the Himalayas of India</b></font>
-<!--             <span class="classh">
-            <a href="http://www.ecologyandevolution.org/2100home.html">link</a>
-            </span> -->
-            <br>
-        </div>
-
-        <div class="mobileHide2">
-<!--             HEADER FOR DESKTOP -->
-            <br>
-            <br>
-            <font size="4"><b>Sustainability efforts in the Himalayas of India</b></font>
-<!--             <span class="classh">
-            <a href="http://www.ecologyandevolution.org/2100home.html">link</a>
-            </span> -->
-        </div>
+        
 <div class="mobileShow2">
     <!--             THIS BR IS SO THE PARAGRAPHS UNDER MOBILESHOW2 FOR MOBILE ARE NOT INDENTED -->
-    <div class="mobileShow">
+<!--     <div class="mobileShow">
         <br>
-    </div>
+    </div> -->
     <!--             THIS IS WHERE PARAGRAPHS GET PASTED IN -->
-    <a href="2100img/theomal-big.jpg">
-        <img class="imgleft" src="2100img/theomal-small.jpg" width="150" height="150" alt="Image" />
-    </a>
-    <span class="classb">
-Emmanuel Theophilus, Malika Virdi (pictured) and K. Ramnarayan are leaders promoting ecological and cultural sustainability in the Munsiari region of Uttarakhand, India. Through collaborations with international NGOs and local villagers they are promoting species conservation, watershed protection, sustainable development of the local economy, and the empowerment of women. Learn more about their work with
-<a href="http://www.himalprakriti.org/">Himal Prakriti</a>
-a trust for nature, and the 
-<a href="https://www.facebook.com/maati.munsiari/">Maati Women's Collective</a>.
+<!--     <a href="2100img/bullitt-big.jpg">
+        <img class="imgleft" src="2100img/bullitt-small.jpg" width="150" height="150" alt="Image" />
+    </a> -->
+<!-- The Bullitt Center in Seattle, WA is a truly innovative commercial property that is energy neutral, independent of city water and sewer, and designed to last for 250 yrs. Though the up-front building costs were greater than those for conventional construction, a
+<span class="classb">
+<a href="http://www.bullittcenter.org/2015/04/02/bullitt-center-financial-case-study/">financial analysis</a>
+</span>
+shows that over the long run, this type of building design makes economic sense. Check out
+<span class="classb">
+<a href="http://www.bullittcenter.org/">the Bullitt Center website</a>
+</span>
+to learn more.
     <br>
+    <br> -->
+
+<div align = center>
     <br>
+    Wetland photo montages by Catherine Owen Koning
+    <br><br>
+            <a href="2100img/KoningWetlandArt3.jpg"><img src="2100img/KoningWetlandArt3.jpg" width="50%"/></a>
+    <br><br><br>
+            <a href="2100img/KoningWetland9.jpg"><img src="2100img/KoningWetland9.jpg" width="50%"/></a>
+    <br><br><br>
+            <a href="2100img/KoningWetlandArt2.jpg"><img src="2100img/KoningWetlandArt2.jpg" width="50%"/></a>
+    <br><br><br>
+            <a href="2100img/KoningWetlandArt5.jpg"><img src="2100img/KoningWetlandArt5.jpg" width="50%"/></a>
+    <br><br>
+</div>
+<!--     </a>
     <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
+            <span class="classb">
+   Original bird poster by <a href="http://aprilclaggett.com/">April Claggett</a> created to help raise funds for <a href="http://www.himalprakriti.org/">Himal Prakriti</a>, an organization working on bird conservation and other related efforts in Munsiari, India.
+        <br>
+        <div class="comment more"> 
+            <br>
+            Munsiari is an Important Bird Area (IBA) of India. The Gori River Basin, where Munsiari is located, is home to some 320 bird species. These birds inhabit 5 ecological life zones, from the sub-tropical zone at 590 meters to the alpine zone up to 5,500 meters in altitude. In addition to the altitude gradients, habitats also represent the overlay of three broad biogeographical sub-regions: that of the Western Himalaya, the Eastern Himalaya and the Tibetan Plateau.<br><br>
+            The Gori River basin is 120 km long and on average 25 km wide, and covers around 2,240 sq km. Over 64% of the basin is under village commons or Van Panchayats, representing all altitude gradients and providing the best most contiguous habitats for these birds. Reserve Forests cover less than 8% of the landscape, and around 4% is under agriculture.<br><br>
+            <a href="http://www.himalprakriti.org/">Himal Prakriti</a> is a not-for-profit society acting as a "Trust for Nature." Its activities include work with village communities in nature conservation, forest dependent livelihoods, and related research and education.
+        </div> -->
+
+    <br><br><br><br>
+<div align="center">
     <font size ="2">
-    Photo by Eric Nemitz<br>
     &copy;2016, The 2100 Project
 </div>
-</span>
+        </span>
+</div>
 
     </div>
 </body>

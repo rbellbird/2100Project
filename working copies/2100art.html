@@ -7,56 +7,6 @@ $(document).ready(function() {
 });
 </script>
 
-<!-- THIS IS THE CODE FOR THE MORE/LESS OPTION -->
-    <script type='text/javascript' src='jquerytest.js'></script>
-    <script type="text/javascript">
-    $(document).ready(function() {
-        var showChar = 1;
-        var ellipsestext ="...";
-        var moretext = "more";
-        var lesstext = "less";
-        $('.more').each(function() {
-            var content = $(this).html();
-
-            if(content.length > showChar) {
-
-                var c = content.substr(0, showChar);
-                var h = content.substr(showChar-1, content.length - showChar);
-
-                var html = c + '<span class="moreelipses">'+ellipsestext+'</span>&nbsp;<span class="morecontent"><span>' + h + '</span>&nbsp;&nbsp;<a href="" class="morelink">'+moretext+'</a></span>';
-
-                $(this).html(html);
-            }
-
-        });
-
-        $(".morelink").click(function(){
-            if($(this).hasClass("less")) {
-                $(this).removeClass("less");
-                $(this).html(moretext);
-            } else {
-                $(this).addClass("less");
-                $(this).html(lesstext);
-            }
-            $(this).parent().prev().toggle();
-            $(this).prev().toggle();
-            return false;
-        });
-    });
-    </script>
-
-    <style type='text/css'>
-
-    .comment {
-    }
-    a.morelink {
-    }
-    .morecontent span {
-        display: none;
-    }
-
-    </style>
-
 <head>
     <link rel="icon" type="image/gif" href="2100iconclear.png">
     <meta http-equiv="Content-type" content="text/html; charset=UTF-8" />
@@ -69,8 +19,7 @@ $(document).ready(function() {
     <meta name="revisit-after" content="7 days" />
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale = 1.0, maximum-scale=3.0, user-scalable=yes" />
-
-<!--     TITLE HERE -->
+    <!--     TITLE HERE -->
     <title>art</title>
     <link rel="stylesheet" href="css/hamburgermerge.css" type="text/css" media="screen" />
     <!--     /*<style type="text/css">
@@ -113,10 +62,10 @@ $(document).ready(function() {
         <div class="headerdesk">
             <ul id="navtop">
                 <div align="center">
-                <li>
-                    <a href="http://www.ecologyandevolution.org/2100home.html"><img src="2100img/logo8.jpg" width="250" vertical-align: middle></a>
-                </li>
-                <font size="2"><b>
+                    <li>
+                        <a href="http://www.ecologyandevolution.org/2100home.html"><img src="2100img/logo8.jpg" width="250" vertical-align: middle></a>
+                    </li>
+                    <font size="2"><b>
                     <li><a href="http://www.ecologyandevolution.org/why2100.html">WHY 2100?</a></li>
                     <li><a href="http://www.ecologyandevolution.org/2100monthlyfeatures.html">MONTHLY FEATURES</a></li>
                     <li><a href="http://www.ecologyandevolution.org/2100art.html">ART</a></li>
@@ -128,122 +77,126 @@ $(document).ready(function() {
                 </div>
                 </b></font>
             </ul>
+            </div>
+            <br>
         </div>
-        <br>
-    </div>
-    <!-- <div class="mobileShow"> -->
-<ul class="navigation">
-    <li class="nav-item">
-        <a href="http://www.ecologyandevolution.org/why2100.html">
+        <!-- <div class="mobileShow"> -->
+        <ul class="navigation">
+            <li class="nav-item">
+                <a href="http://www.ecologyandevolution.org/why2100.html">
                     WHY 2100?</a></li>
-    <li class="nav-item">
-        <a href="http://www.ecologyandevolution.org/2100monthlyfeatures.html">
+            <li class="nav-item">
+                <a href="http://www.ecologyandevolution.org/2100monthlyfeatures.html">
                             MONTHLY FEATURES</a></li>
-    <li class="nav-item">
-        <a href="http://www.ecologyandevolution.org/2100art.html">
+            <li class="nav-item">
+                <a href="http://www.ecologyandevolution.org/2100art.html">
                                 ART</a></li>
-    <li class="nav-item">
-        <a href="http://www.ecologyandevolution.org/2100quotes.html">
+            <li class="nav-item">
+                <a href="http://www.ecologyandevolution.org/2100quotes.html">
                                     QUOTES</a></li>
-    <li class="nav-item">
-        <a href="http://www.ecologyandevolution.org/2100links.html">
+            <li class="nav-item">
+                <a href="http://www.ecologyandevolution.org/2100links.html">
                                         LINKS</a></li>
-    <li class="nav-item">
-        <a href="http://www.ecologyandevolution.org/2100submissions.html">
+            <li class="nav-item">
+                <a href="http://www.ecologyandevolution.org/2100submissions.html">
                                             SUBMISSIONS</a></li>
-    <li class="nav-item">
-        <a href="http://www.ecologyandevolution.org/">E&E HOME</a></li>
-    <!--         <li class="nav-item">
+            <li class="nav-item">
+                <a href="http://www.ecologyandevolution.org/">E&E HOME</a></li>
+            <!--         <li class="nav-item">
             <a href="http://www.ecologyandevolution.org/2100didyouknowmobile.html">
                                     DID YOU KNOW...</a></li> -->
-
-    </ul>
-    <!-- THIS ADDS THE HAMBURGER -->
-    <input type="checkbox" id="nav-trigger" class="nav-trigger" />
-    <label for="nav-trigger"></label>
-    <div class="site-wrap1">
-        <div class="header">
-            <a href="http://www.ecologyandevolution.org/2100home.html"><img src="2100img/logoM.jpg" class="banner"></a>
+        </ul>
+        <!-- THIS ADDS THE HAMBURGER -->
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger"></label>
+        <div class="site-wrap1">
+            <div class="header">
+                <a href="http://www.ecologyandevolution.org/2100home.html"><img src="2100img/logoM.jpg" class="banner"></a>
+            </div>
         </div>
-    </div>
+        <div class="site-wrap3">
+            <div class="mobileShow">
+                <!--             HEADER and content? FOR MOBILE -->
+                <br>
+                <br>
+                <font size="4"><b>Art</b></font>
+                <br>
+            </div>
+            <div class="mobileHide2">
+                <!--             HEADER and content? FOR DESKTOP -->
+                <br>
+                <br>
+                <font size="4"><b>Art</b></font>
+            </div>
+            <div class="mobileShow2">
+                <!--             THIS BR IS SO THE PARAGRAPHS UNDER MOBILESHOW2 FOR MOBILE ARE NOT INDENTED -->
+                <div class="mobileShow">
+                    <br>
+                </div>
+                <!--             THIS IS WHERE ARTWORK GETS PASTED IN -->
+<!--                 <div align="center">
+                        <span class="classb">
+                        <div id="twentyeight">
+                            <a href="http://www.ecologyandevolution.org/munsiaribirds.html">
+                            <img src="2100img/munsbirdssmall.png" width="100%" height="100%" border="1" alt="Image" /></a>
+                        </div>
+                        <div id="six">
+                            <img src="2100img/clearicon.png" alt="Image" />
+                        </div>
+                        <div id="twentyeight">
+                            <a href="http://www.ecologyandevolution.org/2100february2016.html">
+                            <img src="2100img/wetlandart.png" width="100%" border="1" alt="Image" /></a>
+                        </div>
+                        <div id="six">
+                            <img src="2100img/clearicon.png" alt="Image" />
+                        </div>
+                        <div id="twentyeight">
+                            <a href="http://www.ecologyandevolution.org/2100march2016.html">
+                            <img src="2100img/warmingsound.png" width="100%" border="2" alt="Image" /></a>
+                        </div>
+                        </span>
+                    </div>
 
-    <div class="site-wrap3">
-        <div class="mobileShow">
-<!--             HEADER FOR MOBILE -->
-            <br>
-            <br>
-            <font size="4"><b>Art</b></font>
-<!--             <span class="classh">
-            <a href="http://www.ecologyandevolution.org/2100home.html">link</a>
-            </span> -->
-            <br>
+                    <div id="below">
+                        <br><br>
+                    </div> -->
+
+                    <div align="center">
+                        <span class="classb">
+                        <div id="twentyeight">
+                            <a href="http://www.ecologyandevolution.org/munsiaribirds.html">
+                            <img src="2100img/munsbirdssmall.png" width="100%" height="100%" border="1" alt="Image" /></a>
+                        </div>
+                        <div id="six">
+                            <img src="2100img/clearicon.png" alt="Image" />
+                        </div>
+                        <div id="twentyeight">
+                            <a href="http://www.ecologyandevolution.org/wetlandmontages.html">
+                            <img src="2100img/wetlandart.png" width="100%" border="1" alt="Image" /></a>
+                        </div>
+                        <div id="six">
+                            <img src="2100img/clearicon.png" alt="Image" />
+                        </div>
+                        <div id="twentyeight">
+                            <a href="http://www.ecologyandevolution.org/soundgraph.html">
+                            <img src="2100img/warmingsound.png" width="100%" border="2" alt="Image" /></a>
+                        </div>
+                        </span>
+                    </div>
+
+                    <div id="below">
+                        <br><br>
+                        We'll be adding more artwork over the coming months. Check back soon, or, better yet, submit some art!
+                        <br><br><br><br><br><br>
+                        <div align="center">
+                        <font size ="2">
+                        &copy;2016, The 2100 Project&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        </font>
+                        </div>
+                    </div>
+                <br>
+            </div>
         </div>
-
-        <div class="mobileHide2">
-<!--             HEADER FOR DESKTOP -->
-            <br>
-            <br>
-            <font size="4"><b>Art</b></font>
-<!--             <span class="classh">
-            <a href="http://www.ecologyandevolution.org/2100home.html">link</a>
-            </span> -->
-        </div>
-<div class="mobileShow2">
-    <!--             THIS BR IS SO THE PARAGRAPHS UNDER MOBILESHOW2 FOR MOBILE ARE NOT INDENTED -->
-    <div class="mobileShow">
-        <br>
-    </div>
-    <!--             THIS IS WHERE PARAGRAPHS GET PASTED IN -->
-<!--     <a href="2100img/bullitt-big.jpg">
-        <img class="imgleft" src="2100img/bullitt-small.jpg" width="150" height="150" alt="Image" />
-    </a> -->
-<!-- The Bullitt Center in Seattle, WA is a truly innovative commercial property that is energy neutral, independent of city water and sewer, and designed to last for 250 yrs. Though the up-front building costs were greater than those for conventional construction, a
-<span class="classb">
-<a href="http://www.bullittcenter.org/2015/04/02/bullitt-center-financial-case-study/">financial analysis</a>
-</span>
-shows that over the long run, this type of building design makes economic sense. Check out
-<span class="classb">
-<a href="http://www.bullittcenter.org/">the Bullitt Center website</a>
-</span>
-to learn more.
-    <br>
-    <br> -->
-        <span class="classb">
-    <a href="2100img/munsiaribirds.jpg">
-        <div align="center">
-        <img src="2100img/munsiaribirds.jpg" width="300" alt="Image" />
-        </div>
-    </a>
-    <br>
-   Original bird poster by April Claggett created to help raise funds for <a href="http://www.himalprakriti.org/">Himal Prakriti</a>, an organization working on bird conservation and other related efforts in Munsiari, India.
-        <br>
-        <div class="comment more"> 
-            <br>
-            Munsiari is an Important Bird Area (IBA) of India. The Gori River Basin, where Munsiari is located, is home to some 320 bird species. These birds inhabit 5 ecological life zones, from the sub-tropical zone at 590 meters to the alpine zone up to 5,500 meters in altitude. In addition to the altitude gradients, habitats also represent the overlay of three broad biogeographical sub-regions: that of the Western Himalaya, the Eastern Himalaya and the Tibetan Plateau.<br><br>
-            The Gori River basin is 120 km long and on average 25 km wide, and covers around 2,240 sq km. Over 64% of the basin is under village commons or Van Panchayats, representing all altitude gradients and providing the best most contiguous habitats for these birds. Reserve Forests cover less than 8% of the landscape, and around 4% is under agriculture.<br><br>
-            <a href="http://www.himalprakriti.org/">Himal Prakriti</a> is a not-for-profit society acting as a "Trust for Nature." Its activities include work with village communities in nature conservation, forest dependent livelihoods, and related research and education.
-        </div>
-
-    <br><br>
-
-    <br><br><br><br>
-    <div align="center">
-    <iframe width="400" height="215" src="https://www.youtube.com/embed/8P029W35E2Y" frameborder="0" allowfullscreen></iframe>
-    </div>
-    <br><br>
-    Sound graph of climate change data based on average global temperature from 1880 to 2014. Sound frequencies for the lowest temperature and highest temperature years are set to correspond to the lowest and highest notes on a standard piano keyboard. You can learn more about sound graphs <a href="http://www.ecologyandevolution.org/sonification.html">here</a>.
-        <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <font size ="2">
-    &copy;2016, The 2100 Project
-
-        </span>
-</div>
-
-    </div>
 </body>
 
 </html>

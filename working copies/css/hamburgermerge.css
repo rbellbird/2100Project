@@ -97,6 +97,43 @@ THIS DOES GIVE SHADOW LINE, SOMEHOW ALLOWS CONTENT TO SCROLL UNDER
   /*background: linear-gradient(135deg, rgba(0,0,0,0) 0%,rgba(75,20,20,0.65) 100%);*/
 }
 
+#twentyeight {
+    width:28%;
+    float:left;
+}
+
+#twentyeightc {
+    width:28%;
+    float:center;
+}
+
+#twentyeightr {
+    width:28%;
+    float:right;
+}
+
+#two {
+    width:4%;
+    float:left;
+}
+
+#six {
+    width:6%;
+    float:left;
+}
+
+#eighty {
+    width:80%;
+}
+
+#picnottoobig {
+    width: 600px;
+}
+
+#below {
+  clear: both;      
+}
+
 /* Site Wrapper - Everything that isn't navigation */
 .site-wrap1 {
   position: absolute;
@@ -256,6 +293,11 @@ font-family: Georgia, "Droid Serif", Cambria, "Times New Roman", Times, serif; 	
 .classb A:visited {text-decoration: underline; color: #626258;}
 .classb A:active {text-decoration: underline; color: #626258;}
 .classb A:hover {text-decoration: underline; color: green;}
+
+.classc A:link {text-decoration: none; color: #626258;}
+.classc A:visited {text-decoration: none; color: #626258;}
+.classc A:active {text-decoration: none; color: #626258;}
+.classc A:hover {text-decoration: underline; color: green;}
 
 .classh A:link {text-decoration: underline; font-weight:bold; color: #626258;}
 .classh A:visited {text-decoration: underline; font-weight:bold; color: #626258;}
