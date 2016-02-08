@@ -175,6 +175,14 @@ font-family: Georgia, "Droid Serif", Cambria, "Times New Roman", Times, serif; 	
     margin: auto;
     line-height: 1.1em;
 }
+
+.clicktolearn2 {
+    background-color: white;
+    position: relative;
+    width: 550px;
+    margin: auto;
+    line-height: 1.1em;
+}
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
     .clicktolearn {
         display: inline;

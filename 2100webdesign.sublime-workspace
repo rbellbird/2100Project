@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"max",
+				"max-width"
+			],
+			[
 				"marg",
 				"margin-top"
 			],
@@ -35,7 +39,7 @@
 			"file": "working copies/css/hamburgermerge.css",
 			"settings":
 			{
-				"buffer_size": 10299,
+				"buffer_size": 10762,
 				"line_ending": "Windows"
 			}
 		},
@@ -43,7 +47,7 @@
 			"file": "working copies/2100home.html",
 			"settings":
 			{
-				"buffer_size": 27942,
+				"buffer_size": 28122,
 				"line_ending": "Windows"
 			}
 		},
@@ -51,47 +55,39 @@
 			"file": "working copies/why2100.html",
 			"settings":
 			{
-				"buffer_size": 8210,
+				"buffer_size": 8353,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "working copies/2100submissions.html",
+			"file": "working copies/2100upcomingauthors.html",
 			"settings":
 			{
-				"buffer_size": 9308,
+				"buffer_size": 6960,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "working copies/2100monthlyfeatures.html",
+			"file": "working copies/2100links.html",
 			"settings":
 			{
-				"buffer_size": 6514,
+				"buffer_size": 8144,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "working copies/2100theomal.html",
+			"file": "working copies/2100advisorygroup.html",
 			"settings":
 			{
-				"buffer_size": 6775,
+				"buffer_size": 6606,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "working copies/2100bullittcenter.html",
+			"file": "working copies/2100homegoalthree.html",
 			"settings":
 			{
-				"buffer_size": 6879,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "working copies/2100singletonbio.html",
-			"settings":
-			{
-				"buffer_size": 7537,
+				"buffer_size": 29026,
 				"line_ending": "Windows"
 			}
 		},
@@ -99,7 +95,7 @@
 			"file": "working copies/2100art.html",
 			"settings":
 			{
-				"buffer_size": 10628,
+				"buffer_size": 9090,
 				"line_ending": "Windows"
 			}
 		}
@@ -115,15 +111,15 @@
 				"HTMLPrettify"
 			],
 			[
-				"H",
-				"HTMLPrettify"
-			],
-			[
 				"html",
 				"HTMLPrettify"
 			],
 			[
 				"ht",
+				"HTMLPrettify"
+			],
+			[
+				"H",
 				"HTMLPrettify"
 			],
 			[
@@ -156,14 +152,26 @@
 	},
 	"file_history":
 	[
-		"/C/Singleton/2100 a story and a graph/web template/working copies/2100img/wetland.html",
-		"/C/Singleton/2100 a story and a graph/web template/working copies/2100submissions.html",
-		"/C/Singleton/2100 a story and a graph/web template/working copies/2100advisorygroup.html",
-		"/C/Singleton/2100 a story and a graph/web template/working copies/2100bullittcenter.html",
-		"/C/Singleton/2100 a story and a graph/web template/working copies/why2100.html",
-		"/C/Singleton/2100 a story and a graph/web template/working copies/2100theomal.html",
+		"/C/Singleton/2100 a story and a graph/web template/working copies/2100quotes.html",
+		"/C/Singleton/2100 a story and a graph/web template/working copies/why2100old2.html",
+		"/C/Singleton/EcologyAndEvolution/zoom java ios testing/descriptions.html",
 		"/C/Singleton/2100 a story and a graph/web template/working copies/2100links.html",
+		"/C/Singleton/2100 a story and a graph/web template/working copies/2100submissions.html",
+		"/C/Singleton/2100 a story and a graph/web template/working copies/2100img/trekpicture.html",
+		"/C/Singleton/2100 a story and a graph/web template/working copies/wetlandmontages.html",
+		"/C/Singleton/2100 a story and a graph/web template/working copies/soundgraph.html",
+		"/C/Singleton/2100 a story and a graph/web template/working copies/2100singletonbio.html",
+		"/C/Singleton/2100 a story and a graph/web template/working copies/2100artold.html",
 		"/C/Singleton/2100 a story and a graph/web template/working copies/2100peregrine.html",
+		"/C/Singleton/2100 a story and a graph/web template/working copies/2100home.html",
+		"/C/Singleton/2100 a story and a graph/web template/working copies/munsiaribirds.html",
+		"/C/Singleton/2100 a story and a graph/web template/working copies/2100theomal.html",
+		"/C/Singleton/2100 a story and a graph/web template/working copies/2100january2016.html",
+		"/C/Singleton/2100 a story and a graph/web template/working copies/2100art.html",
+		"/C/Singleton/2100 a story and a graph/web template/working copies/2100bullittcenter.html",
+		"/C/Singleton/2100 a story and a graph/web template/working copies/2100img/wetland.html",
+		"/C/Singleton/2100 a story and a graph/web template/working copies/2100advisorygroup.html",
+		"/C/Singleton/2100 a story and a graph/web template/working copies/why2100.html",
 		"/C/Singleton/2100 a story and a graph/web template/working copies/2100guides.html",
 		"/C/Singleton/2100 a story and a graph/web template/working copies/2100neforests.html",
 		"/C/Singleton/2100 a story and a graph/web template/working copies/2100ctwkids.html",
@@ -172,9 +180,7 @@
 		"/C/Singleton/2100 a story and a graph/jquerytest.js",
 		"/C/Singleton/2100 a story and a graph/moretext.html",
 		"/C/Singleton/2100 a story and a graph/web template/working copies/why2100old.html",
-		"/C/Singleton/2100 a story and a graph/web template/working copies/2100quotes.html",
 		"/C/Singleton/2100 a story and a graph/web template/working copies/2100monthlyfeatures.html",
-		"/C/Singleton/2100 a story and a graph/web template/working copies/2100art.html",
 		"/C/Singleton/2100 a story and a graph/web template/mobile REAL/2100bullittcentermobile.html",
 		"/C/Singleton/2100 a story and a graph/web template/mobile REAL/2100homejustmobile.html",
 		"/C/Singleton/2100 a story and a graph/web template/mobile site/2100mobile.html",
@@ -218,7 +224,7 @@
 	"groups":
 	[
 		{
-			"selected": 5,
+			"selected": 7,
 			"sheets":
 			[
 				{
@@ -254,15 +260,15 @@
 					"file": "working copies/css/hamburgermerge.css",
 					"settings":
 					{
-						"buffer_size": 10299,
+						"buffer_size": 10762,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								5756,
-								5756
+								3519,
+								3519
 							]
 						],
 						"settings":
@@ -272,7 +278,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 3375.0,
+						"translation.y": 2160.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -282,15 +288,15 @@
 					"file": "working copies/2100home.html",
 					"settings":
 					{
-						"buffer_size": 27942,
+						"buffer_size": 28122,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								22898,
-								22898
+								0,
+								0
 							]
 						],
 						"settings":
@@ -300,7 +306,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 2205.0,
+						"translation.y": 7560.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -310,15 +316,15 @@
 					"file": "working copies/why2100.html",
 					"settings":
 					{
-						"buffer_size": 8210,
+						"buffer_size": 8353,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								7764,
-								7764
+								7663,
+								7663
 							]
 						],
 						"settings":
@@ -328,25 +334,25 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 2385.0,
+						"translation.y": 2220.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 4,
-					"file": "working copies/2100submissions.html",
+					"file": "working copies/2100upcomingauthors.html",
 					"settings":
 					{
-						"buffer_size": 9308,
+						"buffer_size": 6960,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								6878,
-								6878
+								6748,
+								6748
 							]
 						],
 						"settings":
@@ -356,25 +362,25 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 2340.0,
+						"translation.y": 2025.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 5,
-					"file": "working copies/2100monthlyfeatures.html",
+					"file": "working copies/2100links.html",
 					"settings":
 					{
-						"buffer_size": 6514,
+						"buffer_size": 8144,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								6110,
-								6110
+								8018,
+								8018
 							]
 						],
 						"settings":
@@ -384,25 +390,25 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1890.0,
+						"translation.y": 2700.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 6,
-					"file": "working copies/2100theomal.html",
+					"file": "working copies/2100advisorygroup.html",
 					"settings":
 					{
-						"buffer_size": 6775,
+						"buffer_size": 6606,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								5198,
-								5198
+								6442,
+								6442
 							]
 						],
 						"settings":
@@ -412,25 +418,25 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1845.0,
+						"translation.y": 1920.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 7,
-					"file": "working copies/2100bullittcenter.html",
+					"file": "working copies/2100homegoalthree.html",
 					"settings":
 					{
-						"buffer_size": 6879,
+						"buffer_size": 29026,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								6834,
-								6679
+								23404,
+								23404
 							]
 						],
 						"settings":
@@ -440,53 +446,25 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 2385.0,
+						"translation.y": 8550.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 8,
-					"file": "working copies/2100singletonbio.html",
-					"settings":
-					{
-						"buffer_size": 7537,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								6141,
-								6141
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1980.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 9,
 					"file": "working copies/2100art.html",
 					"settings":
 					{
-						"buffer_size": 10628,
+						"buffer_size": 9090,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								9878,
-								9878
+								0,
+								1905
 							]
 						],
 						"settings":
@@ -496,7 +474,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 3240.0,
+						"translation.y": 359.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
