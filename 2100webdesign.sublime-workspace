@@ -60,22 +60,6 @@
 			}
 		},
 		{
-			"file": "working copies/2100february2016.html",
-			"settings":
-			{
-				"buffer_size": 14879,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "working copies/2100monthlyfeatures.html",
-			"settings":
-			{
-				"buffer_size": 9984,
-				"line_ending": "Windows"
-			}
-		},
-		{
 			"file": "working copies/2100links.html",
 			"settings":
 			{
@@ -84,18 +68,10 @@
 			}
 		},
 		{
-			"file": "working copies/2100quotes.html",
+			"file": "working copies/2100upcomingauthors.html",
 			"settings":
 			{
-				"buffer_size": 11793,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "working copies/2100homenew.html",
-			"settings":
-			{
-				"buffer_size": 32452,
+				"buffer_size": 6915,
 				"line_ending": "Windows"
 			}
 		}
@@ -152,6 +128,10 @@
 	},
 	"file_history":
 	[
+		"/C/Singleton/2100 a story and a graph/web template/working copies/2100february2016.html",
+		"/C/Singleton/2100 a story and a graph/web template/working copies/2100monthlyfeatures.html",
+		"/C/Singleton/2100 a story and a graph/web template/working copies/2100homenew.html",
+		"/C/Singleton/2100 a story and a graph/web template/working copies/2100quotes.html",
 		"/C/Singleton/2100 a story and a graph/web template/working copies/2100archivedimages.html",
 		"/C/Singleton/2100 a story and a graph/web template/working copies/why2100.html",
 		"/C/Singleton/2100 a story and a graph/web template/working copies/plankton.html",
@@ -160,12 +140,9 @@
 		"/C/Singleton/2100 a story and a graph/web template/working copies/2100diamondbacks.html",
 		"/C/Singleton/2100 a story and a graph/web template/working copies/2100art.html",
 		"/C/Singleton/2100 a story and a graph/web template/working copies/2100birdboxskyline.html",
-		"/C/Singleton/2100 a story and a graph/web template/working copies/2100monthlyfeatures.html",
 		"/C/Singleton/2100 a story and a graph/web template/working copies/2100links.html",
 		"/C/Singleton/2100 a story and a graph/web template/working copies/2100upcomingauthors.html",
-		"/C/Singleton/2100 a story and a graph/web template/working copies/2100homenew.html",
 		"/C/Singleton/2100 a story and a graph/web template/working copies/2100home.html",
-		"/C/Singleton/2100 a story and a graph/web template/working copies/2100quotes.html",
 		"/C/Singleton/2100 a story and a graph/web template/working copies/why2100old2.html",
 		"/C/Singleton/EcologyAndEvolution/zoom java ios testing/descriptions.html",
 		"/C/Singleton/2100 a story and a graph/web template/working copies/2100submissions.html",
@@ -232,7 +209,7 @@
 	"groups":
 	[
 		{
-			"selected": 8,
+			"selected": 5,
 			"sheets":
 			[
 				{
@@ -349,62 +326,6 @@
 				},
 				{
 					"buffer": 4,
-					"file": "working copies/2100february2016.html",
-					"settings":
-					{
-						"buffer_size": 14879,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								6716,
-								6791
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 2295.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "working copies/2100monthlyfeatures.html",
-					"settings":
-					{
-						"buffer_size": 9984,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								4443,
-								4443
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1155.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 6,
 					"file": "working copies/2100links.html",
 					"settings":
 					{
@@ -426,25 +347,25 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 2835.0,
+						"translation.y": 75.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 7,
-					"file": "working copies/2100quotes.html",
+					"buffer": 5,
+					"file": "working copies/2100upcomingauthors.html",
 					"settings":
 					{
-						"buffer_size": 11793,
+						"buffer_size": 6915,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								9442,
-								9442
+								6362,
+								6362
 							]
 						],
 						"settings":
@@ -454,35 +375,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 3645.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 8,
-					"file": "working copies/2100homenew.html",
-					"settings":
-					{
-						"buffer_size": 32452,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3840,
-								3840
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 413.0,
+						"translation.y": 1980.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
