@@ -3,39 +3,75 @@
 	{
 		"selected_items":
 		[
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"marg",
+				"margin-top"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"in",
+				"inline"
+			],
+			[
+				"mobil",
+				"mobileShow"
+			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "mobile site/2100mobile.html",
+			"file": "/C/Users/singler/AppData/Roaming/Sublime Text 2/Packages/HTML-CSS-JS Prettify/HTMLPrettify.sublime-settings",
 			"settings":
 			{
-				"buffer_size": 19124,
+				"buffer_size": 600,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "working copies/css/hamburgermerge.css",
+			"settings":
+			{
+				"buffer_size": 10762,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "mobile REAL/2100linksmobile.html",
+			"file": "working copies/2100advisorygroup.html",
 			"settings":
 			{
-				"buffer_size": 3849,
+				"buffer_size": 6606,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "mobile REAL/2100mobileScrollTest.html",
+			"file": "working copies/2100home.html",
 			"settings":
 			{
-				"buffer_size": 19159,
+				"buffer_size": 32452,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "mobile REAL/2100bullittcentermobile.html",
+			"file": "working copies/2100links.html",
 			"settings":
 			{
-				"buffer_size": 3345,
+				"buffer_size": 8313,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "working copies/2100upcomingauthors.html",
+			"settings":
+			{
+				"buffer_size": 6915,
 				"line_ending": "Windows"
 			}
 		}
@@ -43,15 +79,43 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 0.0,
+		"height": 357.0,
 		"selected_items":
 		[
+			[
+				"htm",
+				"HTMLPrettify"
+			],
+			[
+				"html",
+				"HTMLPrettify"
+			],
+			[
+				"ht",
+				"HTMLPrettify"
+			],
+			[
+				"H",
+				"HTMLPrettify"
+			],
+			[
+				"html ",
+				"HTMLPrettify"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Preferences: Browse Packages"
+			]
 		],
-		"width": 0.0
+		"width": 512.0
 	},
 	"console":
 	{
-		"height": 0.0
+		"height": 125.0
 	},
 	"distraction_free":
 	{
@@ -64,10 +128,54 @@
 	},
 	"file_history":
 	[
+		"/C/Singleton/2100 a story and a graph/web template/working copies/2100february2016.html",
+		"/C/Singleton/2100 a story and a graph/web template/working copies/2100monthlyfeatures.html",
+		"/C/Singleton/2100 a story and a graph/web template/working copies/2100homenew.html",
+		"/C/Singleton/2100 a story and a graph/web template/working copies/2100quotes.html",
+		"/C/Singleton/2100 a story and a graph/web template/working copies/2100archivedimages.html",
+		"/C/Singleton/2100 a story and a graph/web template/working copies/why2100.html",
+		"/C/Singleton/2100 a story and a graph/web template/working copies/plankton.html",
+		"/C/Singleton/2100 a story and a graph/web template/working copies/2100solarairplane.html",
+		"/C/Singleton/2100 a story and a graph/web template/working copies/2100invasivepickup.html",
+		"/C/Singleton/2100 a story and a graph/web template/working copies/2100diamondbacks.html",
+		"/C/Singleton/2100 a story and a graph/web template/working copies/2100art.html",
+		"/C/Singleton/2100 a story and a graph/web template/working copies/2100birdboxskyline.html",
+		"/C/Singleton/2100 a story and a graph/web template/working copies/2100links.html",
+		"/C/Singleton/2100 a story and a graph/web template/working copies/2100upcomingauthors.html",
+		"/C/Singleton/2100 a story and a graph/web template/working copies/2100home.html",
+		"/C/Singleton/2100 a story and a graph/web template/working copies/why2100old2.html",
+		"/C/Singleton/EcologyAndEvolution/zoom java ios testing/descriptions.html",
+		"/C/Singleton/2100 a story and a graph/web template/working copies/2100submissions.html",
+		"/C/Singleton/2100 a story and a graph/web template/working copies/2100img/trekpicture.html",
+		"/C/Singleton/2100 a story and a graph/web template/working copies/wetlandmontages.html",
+		"/C/Singleton/2100 a story and a graph/web template/working copies/soundgraph.html",
+		"/C/Singleton/2100 a story and a graph/web template/working copies/2100singletonbio.html",
+		"/C/Singleton/2100 a story and a graph/web template/working copies/2100artold.html",
+		"/C/Singleton/2100 a story and a graph/web template/working copies/2100peregrine.html",
+		"/C/Singleton/2100 a story and a graph/web template/working copies/munsiaribirds.html",
+		"/C/Singleton/2100 a story and a graph/web template/working copies/2100theomal.html",
+		"/C/Singleton/2100 a story and a graph/web template/working copies/2100january2016.html",
+		"/C/Singleton/2100 a story and a graph/web template/working copies/2100bullittcenter.html",
+		"/C/Singleton/2100 a story and a graph/web template/working copies/2100img/wetland.html",
+		"/C/Singleton/2100 a story and a graph/web template/working copies/2100advisorygroup.html",
+		"/C/Singleton/2100 a story and a graph/web template/working copies/2100guides.html",
+		"/C/Singleton/2100 a story and a graph/web template/working copies/2100neforests.html",
+		"/C/Singleton/2100 a story and a graph/web template/working copies/2100ctwkids.html",
+		"/C/Singleton/2100 a story and a graph/web template/working copies/2100charcoal.html",
+		"/C/Singleton/2100 a story and a graph/web template/working copies/2100artmore.html",
+		"/C/Singleton/2100 a story and a graph/jquerytest.js",
+		"/C/Singleton/2100 a story and a graph/moretext.html",
+		"/C/Singleton/2100 a story and a graph/web template/working copies/why2100old.html",
+		"/C/Singleton/2100 a story and a graph/web template/mobile REAL/2100bullittcentermobile.html",
+		"/C/Singleton/2100 a story and a graph/web template/mobile REAL/2100homejustmobile.html",
+		"/C/Singleton/2100 a story and a graph/web template/mobile site/2100mobile.html",
+		"/C/Singleton/2100 a story and a graph/web template/mobile REAL/2100linksmobile.html",
+		"/C/Singleton/2100 a story and a graph/web template/mobile REAL/2100mobileScrollTest.html",
+		"/C/Users/singler/Python Animations/anim for scatterplot attempt.ipynb"
 	],
 	"find":
 	{
-		"height": 0.0
+		"height": 34.0
 	},
 	"find_in_files":
 	{
@@ -81,6 +189,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"overflow",
+			"overflow: \"hidden\"",
+			"width"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -98,29 +209,29 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 5,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "mobile site/2100mobile.html",
+					"file": "/C/Users/singler/AppData/Roaming/Sublime Text 2/Packages/HTML-CSS-JS Prettify/HTMLPrettify.sublime-settings",
 					"settings":
 					{
-						"buffer_size": 19124,
+						"buffer_size": 600,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								283,
-								283
+								0,
+								0
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 4,
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
@@ -131,38 +242,66 @@
 				},
 				{
 					"buffer": 1,
-					"file": "mobile REAL/2100linksmobile.html",
+					"file": "working copies/css/hamburgermerge.css",
 					"settings":
 					{
-						"buffer_size": 3849,
+						"buffer_size": 10762,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								3519,
+								3519
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 4,
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1710.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 2,
-					"file": "mobile REAL/2100mobileScrollTest.html",
+					"file": "working copies/2100advisorygroup.html",
 					"settings":
 					{
-						"buffer_size": 19159,
+						"buffer_size": 6606,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6442,
+								6442
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1920.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "working copies/2100home.html",
+					"settings":
+					{
+						"buffer_size": 32452,
 						"regions":
 						{
 						},
@@ -180,25 +319,25 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1065.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 3,
-					"file": "mobile REAL/2100bullittcentermobile.html",
+					"buffer": 4,
+					"file": "working copies/2100links.html",
 					"settings":
 					{
-						"buffer_size": 3345,
+						"buffer_size": 8313,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								651,
-								651
+								8022,
+								8022
 							]
 						],
 						"settings":
@@ -208,7 +347,35 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 90.0,
+						"translation.y": 75.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "working copies/2100upcomingauthors.html",
+					"settings":
+					{
+						"buffer_size": 6915,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6362,
+								6362
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1980.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -257,6 +424,10 @@
 		"height": 0.0,
 		"selected_items":
 		[
+			[
+				"htm",
+				"/C/Users/singler/AppData/Roaming/Sublime Text 2/Packages/HTML-CSS-JS Prettify/HTMLPrettify.sublime-settings"
+			],
 			[
 				"mobil",
 				"mobile site/2100mobile.html"
